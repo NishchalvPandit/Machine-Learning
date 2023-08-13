@@ -12,6 +12,8 @@ Regression is a supervised learning technique in machine learning that is used f
 Linear regression builds a model which establishes a relationship between features and targets
 For simple linear regression, the model has two parameters  w and b whose values are 'fit' using training data , once a model's parameters have been determined, the model can be used to make predictions on novel data.
 
+https://github.com/NishchalvPandit/Machine-Learning/blob/main/code/model%20representation%201.ipynb
+
 A cost function, denoted by J, is a mathematical function that quantifies the difference between the target (or original) value and the predicted value in a regression problem. It serves as a measure of how well the model is performing.
 
 
