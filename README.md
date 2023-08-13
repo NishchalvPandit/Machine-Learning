@@ -17,4 +17,7 @@ A cost function, denoted by J, is a mathematical function that quantifies the di
 
 ![image](https://github.com/NishchalvPandit/Machine-Learning/assets/132006735/ced14a85-931e-4b75-8963-c7299ee409ef)
 
+# Day 3
+## Gradient descent
 
+Gradient descent is a technique in machine learning, aimed at iteratively minimizing a given cost function by adjusting model parameters based on calculated gradients. This method dynamically selects the steepest descent path during each iteration, facilitating efficient movement towards local or global minima. Widely applied in tasks like neural network training, linear regression, and logistic regression, gradient descent accelerates convergence and enhances optimization efficiency, despite potential challenges like local minima
