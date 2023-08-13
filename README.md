@@ -26,4 +26,6 @@ https://github.com/NishchalvPandit/Machine-Learning/blob/main/code/cost%20functi
 # Day 3
 ## Gradient descent
 
-Gradient descent is a technique in machine learning, aimed at iteratively minimizing a given cost function by adjusting model parameters based on calculated gradients. This method dynamically selects the steepest descent path during each iteration, facilitating efficient movement towards local or global minima. Widely applied in tasks like neural network training, linear regression, and logistic regression, gradient descent accelerates convergence and enhances optimization efficiency, despite potential challenges like local minima
+Gradient descent is a technique in machine learning, aimed at iteratively minimizing a given cost function by adjusting model parameters based on calculated gradients. This method dynamically selects the steepest descent path during each iteration, facilitating efficient movement towards local or global minima. Widely applied in tasks like neural network training, linear regression, and logistic regression, gradient descent accelerates convergence and enhances optimization efficiency, despite potential challenges like local minima.
+
+![image](https://github.com/NishchalvPandit/Machine-Learning/assets/132006735/32823b94-96c1-4e0a-b424-ff47553de42d)
