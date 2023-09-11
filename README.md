@@ -29,3 +29,18 @@ https://github.com/NishchalvPandit/Machine-Learning/blob/main/code/cost%20functi
 Gradient descent is a technique in machine learning, aimed at iteratively minimizing a given cost function by adjusting model parameters based on calculated gradients. This method dynamically selects the steepest descent path during each iteration, facilitating efficient movement towards local or global minima. Widely applied in tasks like neural network training, linear regression, and logistic regression, gradient descent accelerates convergence and enhances optimization efficiency, despite potential challenges like local minima.
 
 ![image](https://github.com/NishchalvPandit/Machine-Learning/assets/132006735/32823b94-96c1-4e0a-b424-ff47553de42d)
+
+## Day 4
+## Feature scaling
+
+Feature scaling is a preprocessing step in machine learning that adjusts the range of your input features to make them more suitable for gradient descent optimization and ensure that no single feature dominates the learning process.
+
+Two common techniques for feature scaling are:
+
+## Normalization (Min-Max Scaling):
+
+## X_normalized = (X - X_min) / (X_max - X_min)
+
+## Standardization (Z-score Normalization):
+
+## X_standardized = (X - X_mean) / X_stddev
