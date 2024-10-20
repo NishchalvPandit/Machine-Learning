@@ -59,7 +59,7 @@ The sigmoid function enhances the logistic regression model by incorporating all
      The overall likelihood of observing the actual labels is the product of these probabilities. Higher values of this likelihood indicate a better fit of the model.
 
     
-![probablity calculation image]( !https://github.com/NishchalvPandit/Machine-Learning/blob/f22a02ee081d142cd500ec62a9cbd66e2917d86e/Logistic%20regression/probabilty%20calculation.png)
+![probablity calculation image](https://github.com/NishchalvPandit/Machine-Learning/blob/main/Logistic%20regression/probabilty%20calculation.png?raw=true)
 
    - **Using Logarithms:**  
      Since probabilities can be very small, we take the logarithm of the likelihood to simplify calculations and avoid very small numbers.
