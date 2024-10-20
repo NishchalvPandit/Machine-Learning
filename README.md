@@ -65,4 +65,8 @@ By augmenting the input feature vector to include a constant value of 1, we allo
 
 # Perceptron trick in python
 
+check out [Perceptron algorithm](https://github.com/NishchalvPandit/Machine-Learning/blob/main/logisticregressionusingperceptron.ipynb
+)
+
+
 
