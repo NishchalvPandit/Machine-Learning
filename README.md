@@ -1,4 +1,3 @@
-Sure! Here’s a simple introduction you can use for a README in your machine learning repository:
 
 ---
 
