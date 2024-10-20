@@ -88,3 +88,7 @@ The sigmoid function enhances the logistic regression model by incorporating all
 
 ### Summary  
 The loss function in logistic regression, specifically the binary cross-entropy loss, plays a crucial role in measuring the model's performance. By minimizing this loss, we can enhance the accuracy of our predictions and improve the overall effectiveness of the model.
+
+
+### Reference
+[Logistic Regression Part 4 | Loss Function | Maximum Likelihood | Binary Cross Entropy](https://youtu.be/6bXOo0sxY5c?si=XapFR1Z4iBXqQJP0)
