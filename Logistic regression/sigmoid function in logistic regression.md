@@ -36,3 +36,52 @@
 
 ### Summary  
 The sigmoid function enhances the logistic regression model by incorporating all data points, providing a continuous output that represents probabilities. This is in contrast to the perceptron trick, which only updates weights based on misclassifications.
+
+
+### Loss Function in Logistic Regression
+
+1. **Introduction to the Loss Function:**  
+ 
+   In logistic regression, the loss function measures how well the model's predictions align with the actual outcomes. The goal is to minimize this loss to improve the model's performance.
+
+2. **Binary Cross-Entropy Loss:**  
+
+    The most commonly used loss function for logistic regression is the binary cross-entropy loss, also known as log loss. It quantifies the difference between the predicted probabilities and the actual binary labels (0 or 1).
+
+4. **Derivation of the Loss Function:**
+ 
+   - **Initial Probability Calculation:**  
+     The model predicts probabilities for the positive class. For a single data point, the likelihood can be expressed as:
+     - If the actual label is 1 (the positive class), the probability is equal to the predicted probability (Ŷ).
+     - If the actual label is 0 (the negative class), the probability is equal to (1 - Ŷ).
+
+   - **Combining Probabilities:**  
+     The overall likelihood of observing the actual labels is the product of these probabilities. Higher values of this likelihood indicate a better fit of the model.
+
+   - **Using Logarithms:**  
+     Since probabilities can be very small, we take the logarithm of the likelihood to simplify calculations and avoid very small numbers.
+
+   - **Negative Log:**  
+     The logarithm of probabilities is negative for values less than 1, so we take the negative of the log to ensure the loss is a positive value.
+
+   - **Log Loss Function:**  
+   
+     The log loss function is defined as:
+
+     L(Ŷ, Y) = -[Y * log(Ŷ) + (1 - Y) * log(1 - Ŷ)]  
+     This function is minimized to improve model performance.
+
+   - **Handling Misclassified Points:**  
+     To incorporate misclassified points, we use the term (1 - Ŷ). 
+     - When the actual label is 1, the second term becomes 0, so only the first term contributes to the loss. 
+     - When the actual label is 0, the first term becomes 0, and the second term captures the error.
+
+5. **Gradient Descent Optimization:**  
+   The goal is to minimize the loss function using optimization techniques like gradient descent. By calculating the gradients of the loss function with respect to the model parameters, we update the weights to reduce the loss iteratively.
+
+6. **Advantages of Using Cross-Entropy Loss:**  
+   - The binary cross-entropy loss is convex, ensuring that gradient descent converges to a global minimum.
+   - It provides a clear penalty for incorrect predictions, which helps in effectively training the model.
+
+### Summary  
+The loss function in logistic regression, specifically the binary cross-entropy loss, plays a crucial role in measuring the model's performance. By minimizing this loss, we can enhance the accuracy of our predictions and improve the overall effectiveness of the model.
